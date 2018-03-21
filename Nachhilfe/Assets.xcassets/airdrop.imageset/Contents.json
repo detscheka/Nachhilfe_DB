@@ -1,0 +1,1210 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "airdrop@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "airdrop@3x.png",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "alarms@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "albums@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "anchor@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "approximately@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "archery_target@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "arrows_in@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "at@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "bath_shower@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "bathroom_cabinet@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "bluetooth@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "bookmarks@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "browsers@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "candy_cane@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "chat@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "coin_dollar@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "contacts@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "controls_forward@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "divide@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "double_bed@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "download@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "favorites@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "file_attach@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "file_data@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "file_divider@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "file_edit@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "file_jpg@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "file_mp3@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "file_upload@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "films@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "flags@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "floor_lamp@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "folder_music@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "folder_search@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "folder_settings@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "folder@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "gift@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "ice_cream_sprinkles@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "iphone_calibrate@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "ipod_headphones@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "keypad@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "layers_2@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "layers@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "loop@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "mac@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "map_pin_angle_3@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "map_pin_distance_3@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "messages@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "mobile_signal@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "more@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "music_note@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "near@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "net_line@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "new@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "next@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "note_dollar@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "notebook@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "office_chair@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "percentage@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "photos@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "pic_fields_albums@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "pic_ios@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "playlists@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "plus_minus@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "previous@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "reading@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "recents@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "repeat@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "reply@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "ruler_pencil@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "running@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "search@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "shop_basket_love@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "side_drawers@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "signpost@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "signposts@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "sliders_up_2@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "soccer_ball@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "stop_watch@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "suitcase@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "surfer@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "syncing@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "tag@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "tea_cup@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "telephone_signal@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "television@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "timer@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "top_charts@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "trash@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "ui_code@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "upload@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "user_chat@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "user_warning_2@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "users_three_2@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "users_three_switch@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "venn_diagram@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "vertical_arrows@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "wine_glass_angle@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "woman@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "world_times@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "alarms@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "albums@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "anchor@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "approximately@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "archery_target@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "arrows_in@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "at@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "bath_shower@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "bathroom_cabinet@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "bluetooth@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "bookmarks@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "browsers@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "candy_cane@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "chat@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "coin_dollar@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "contacts@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "controls_forward@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "divide@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "double_bed@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "download@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "favorites@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "file_attach@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "file_data@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "file_divider@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "file_edit@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "file_jpg@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "file_mp3@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "file_upload@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "films@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "flags@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "floor_lamp@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "folder_music@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "folder_search@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "folder_settings@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "folder@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "gift@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "ice_cream_sprinkles@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "iphone_calibrate@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "ipod_headphones@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "keypad@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "layers_2@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "layers@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "loop@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "mac@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "map_pin_angle_3@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "map_pin_distance_3@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "messages@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "mobile_signal@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "more@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "music_note@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "near@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "net_line@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "new@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "next@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "note_dollar@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "notebook@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "office_chair@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "percentage@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "photos@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "pic_fields_albums@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "pic_ios@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "playlists@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "plus_minus@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "previous@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "reading@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "recents@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "repeat@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "reply@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "ruler_pencil@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "running@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "search@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "shop_basket_love@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "side_drawers@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "signpost@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "signposts@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "sliders_up_2@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "soccer_ball@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "stop_watch@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "suitcase@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "surfer@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "syncing@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "tag@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "tea_cup@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "telephone_signal@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "television@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "timer@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "top_charts@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "trash@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "ui_code@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "upload@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "user_chat@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "user_warning_2@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "users_three_2@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "users_three_switch@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "venn_diagram@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "vertical_arrows@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "wine_glass_angle@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "woman@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "world_times@3x.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
