@@ -8,25 +8,180 @@
 
 import UIKit
 import Firebase
+import CoreLocation
+import MapKit
 
-class MyAccountVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    var currentUser: String!
+class MyAccountVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, CLLocationManagerDelegate, MKMapViewDelegate, UIGestureRecognizerDelegate, chnageLocationDelegate {
     
+    var currentUser: String!
+    let locationManager = CLLocationManager()
+    var mapView = MKMapView()
+    var annotation = MKPointAnnotation()
+    var ref = DatabaseReference()
+    var usersReference = DatabaseReference()
+    
+    @IBOutlet weak var ratingStackView: UIStackView!
     @IBOutlet weak var imageButton: UIButton!
     @IBOutlet weak var separatorView: UIView!
     @IBOutlet weak var mainView: UIView!
     @IBOutlet weak var nameLabelTop: UILabel!
+    @IBOutlet weak var userLocationButton: UIButton!
+    @IBOutlet weak var separatorView2: UIView!
+
+    @IBOutlet weak var tableViewContainerView: UIView!
+    @IBOutlet weak var ratingStar1: UIImageView!
+    @IBOutlet weak var ratingStar2: UIImageView!
+    @IBOutlet weak var ratingStar3: UIImageView!
+    @IBOutlet weak var ratingStar4: UIImageView!
+    @IBOutlet weak var ratingStar5: UIImageView!
+    @IBOutlet weak var ratingsButton: UIButton!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         configureLayout()
+        prepareLocationManager()
+        prepareFirebase()
+        loadRatings()
+        
         print(currentUser)
         loadProfilePicture()
         applyTags()
         readUserInfo()
         
+    }
+    
+    func loadRatings()
+    {
+        ratingStar1.alpha = 0.3
+        ratingStar2.alpha = 0.3
+        ratingStar3.alpha = 0.3
+        ratingStar4.alpha = 0.3
+        ratingStar5.alpha = 0.3
+        
+        var rating : Double = 0.0
+        var noRatings : Int = 0
+        
+        usersReference.observeSingleEvent(of: .value, with: { (snapshot) in
+            let value = snapshot.value as? NSDictionary
+            var str = value?["NoRatings"] as? [String]
+            
+            if str != nil {
+                noRatings = Int((str![0]))!
+                let label = "\(noRatings) ratings available"
+                self.ratingsButton.setTitle(label, for: .normal)
+            } else {
+                let label = "0 ratings available"
+                self.ratingsButton.setTitle(label, for: .normal)
+            }
+            
+                str = value?["Rating"] as? [String]
+            if str != nil {
+                rating = Double((str![0]))!
+                
+                if rating >= 1.0
+                {
+                    self.ratingStar1.alpha = 1.0
+                }
+                
+                if rating >= 2.0
+                {
+                    self.ratingStar2.alpha = 1.0
+                }
+                
+                if rating >= 3.0
+                {
+                    self.ratingStar3.alpha = 1.0
+                }
+                
+                if rating >= 4.0
+                {
+                    self.ratingStar4.alpha = 1.0
+                }
+                
+                if rating >= 5.0
+                {
+                    self.ratingStar5.alpha = 1.0
+                }
+            }
+        })
+    }
+    
+    func updateFirebaseUserCoordinates(Lat: Double, Long: Double)
+    {
+        let values = ["Lat": Lat, "Long": Long]
+        
+        usersReference.updateChildValues(values, withCompletionBlock: { (err, ref) in
+            if err != nil {
+                print(err!)
+                return
+            }
+            print("User coordinates were updated!")
+        })
+    }
+    
+    func didSendLocationData(Lat: Double, Long: Double) {
+        print("Data received from changeLocationVC")
+        convertCoordinateToTown(latitude: Lat, longitude: Long)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showChangeUserLocationSeg"
+        {
+            let dest = segue.destination as! UINavigationController
+            let vc = dest.topViewController as! ChangeCurrentLocationVCViewController
+            //let vc : ChangeCurrentLocationVCViewController = segue.destination as! ChangeCurrentLocationVCViewController
+            vc.delegate = self
+        }
+    }
+    
+    func prepareLocationManager()
+    {
+        locationManager.delegate = self
+        locationManager.startUpdatingLocation()
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.stopUpdatingLocation()
+    }
+    
+    func prepareFirebase()
+    {
+        ref = Database.database().reference(fromURL: "https://nachhilfe-d92d2.firebaseio.com/")
+        usersReference = ref.child("users").child(self.currentUser)
+    }
+    
+    func convertCoordinateToTown(latitude: Double, longitude: Double)
+    {
+        let geoCoder = CLGeocoder()
+        let location = CLLocation(latitude: latitude, longitude: longitude)
+        var postalCode : String!
+        var city : String!
+        
+        updateFirebaseUserCoordinates(Lat: latitude, Long: longitude)
+        
+        geoCoder.reverseGeocodeLocation(location, completionHandler: { (placemarks, error) -> Void in
+            
+            var placeMark: CLPlacemark!
+            placeMark = placemarks?[0]
+            
+            city = placeMark.addressDictionary!["City"] as! String
+            postalCode = placeMark.addressDictionary!["ZIP"] as! String
+            
+            let title = "\(postalCode!), \(city!)"
+            self.userLocationButton.setTitle(title, for: .normal)
+            let buttonImg = UIImage(named: "woman")
+            print("Coordinates changed to: \(title)")
+            
+            // Find GPS Icon for further usage
+            self.userLocationButton.setImage(buttonImg, for: .normal)
+        })
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let locValue:CLLocationCoordinate2D = manager.location!.coordinate
+        print("User updated coordinates: ")
+        print("locations = \(locValue.latitude) \(locValue.longitude)")
+        convertCoordinateToTown(latitude: locValue.latitude, longitude: locValue.longitude)
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,9 +190,6 @@ class MyAccountVC: UIViewController, UIImagePickerControllerDelegate, UINavigati
     
     func readUserInfo()
     {
-        let ref = Database.database().reference(fromURL: "https://nachhilfe-d92d2.firebaseio.com/")
-        let usersReference = ref.child("users").child(currentUser)
-        
         usersReference.observeSingleEvent(of: .value, with: { (snapshot) in
             let value = snapshot.value as? NSDictionary
             let username = value?["name"] as? String ?? ""
@@ -48,6 +200,7 @@ class MyAccountVC: UIViewController, UIImagePickerControllerDelegate, UINavigati
     func applyTags()
     {
         imageButton.tag = 1
+        userLocationButton.tag = 2
     }
     
     func configureLayout()
@@ -55,8 +208,16 @@ class MyAccountVC: UIViewController, UIImagePickerControllerDelegate, UINavigati
         // Separator
         self.separatorView.frame = CGRect(x: 0, y: self.imageButton.frame.midY + 200, width: self.imageButton.frame.midX * 3, height: 1)
 
-
+        self.userLocationButton.frame = CGRect(x: self.mainView.frame.midX - self.userLocationButton.frame.width, y: self.imageButton.frame.midY + 130, width: 300, height: 60)
         
+        self.ratingStackView.frame = CGRect(x: self.mainView.frame.midX - self.ratingStackView.frame.width/2 + 18, y: self.separatorView.frame.midY + 50, width: self.mainView.frame.width - 50, height: 35)
+        self.ratingStackView.isHidden = false
+        
+        self.ratingsButton.frame = CGRect(x: self.mainView.frame.midX - self.ratingsButton.frame.width, y: self.ratingStackView.frame.midY - 80, width: 300, height: 60)
+        
+        self.separatorView2.frame = CGRect(x: 0, y: self.ratingStackView.frame.midY + 60, width: self.imageButton.frame.midX * 3, height: 1)
+        
+        self.tableViewContainerView.center = CGPoint.init(x: self.tableViewContainerView.frame.width/2, y: self.separatorView2.frame.minY + self.tableViewContainerView.frame.height/2 + 10)
     }
     
     
@@ -66,6 +227,9 @@ class MyAccountVC: UIViewController, UIImagePickerControllerDelegate, UINavigati
         case 1:
             print("Button pressed: choose image")
             chooseImage()
+            
+        case 2:
+            print("Button pressed: change location")
             
         default:
             print("No corresponding button tag found!")

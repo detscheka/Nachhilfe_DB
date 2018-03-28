@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		20116C8773C3724FD4D11BCA /* Pods_Nachhilfe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58D06F7029BF5B61C1D7F7A /* Pods_Nachhilfe.framework */; };
+		591DEDEB206A3643004FEB29 /* UserRatingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591DEDEA206A3643004FEB29 /* UserRatingsVC.swift */; };
+		595B3EC3206661CA004AD559 /* ChangeCurrentLocationVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595B3EC2206661CA004AD559 /* ChangeCurrentLocationVCViewController.swift */; };
 		596239EF2056E06C00CE09A1 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596239EE2056E06C00CE09A1 /* ResetPasswordVC.swift */; };
 		596F3FCA205035730064DB7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F3FC9205035730064DB7F /* AppDelegate.swift */; };
 		596F3FCC205035730064DB7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F3FCB205035730064DB7F /* ViewController.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		591DEDEA206A3643004FEB29 /* UserRatingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRatingsVC.swift; sourceTree = "<group>"; };
+		595B3EC2206661CA004AD559 /* ChangeCurrentLocationVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCurrentLocationVCViewController.swift; sourceTree = "<group>"; };
 		596239EE2056E06C00CE09A1 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
 		596F3FC6205035730064DB7F /* Nachhilfe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nachhilfe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		596F3FC9205035730064DB7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				5988B065205AB82A00E65137 /* MyAccountVC.swift */,
 				5988B067205AB83300E65137 /* SettingsVC.swift */,
 				5988B06D205BF1F000E65137 /* Controller.swift */,
+				595B3EC2206661CA004AD559 /* ChangeCurrentLocationVCViewController.swift */,
+				591DEDEA206A3643004FEB29 /* UserRatingsVC.swift */,
 			);
 			path = MainScreenBarController;
 			sourceTree = "<group>";
@@ -288,10 +294,12 @@
 				596F3FD2205035730064DB7F /* Nachhilfe.xcdatamodeld in Sources */,
 				596239EF2056E06C00CE09A1 /* ResetPasswordVC.swift in Sources */,
 				5988B06E205BF1F000E65137 /* Controller.swift in Sources */,
+				591DEDEB206A3643004FEB29 /* UserRatingsVC.swift in Sources */,
 				5988B066205AB82A00E65137 /* MyAccountVC.swift in Sources */,
 				598C492D2050960D00D51498 /* RegisterNewUserVC.swift in Sources */,
 				596F3FCC205035730064DB7F /* ViewController.swift in Sources */,
 				596F3FCA205035730064DB7F /* AppDelegate.swift in Sources */,
+				595B3EC3206661CA004AD559 /* ChangeCurrentLocationVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
